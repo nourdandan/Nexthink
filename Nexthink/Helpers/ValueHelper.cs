@@ -7,6 +7,9 @@ using System.Xml.Linq;
 
 namespace Nexthink.Helpers
 {
+    /// <summary>
+    /// Helper for extracting data from xml file
+    /// </summary>
     class ValueHelper
     {
 

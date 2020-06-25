@@ -15,6 +15,10 @@ namespace Nexthink.Entities.EntitiesMapper
         public static string BodyNodeName = "body";
         public List<DeviceData> ListOfDevices = new List<DeviceData>();
 
+        /// <summary>
+        /// Maps values of xml data into our entity
+        /// This plays the role of data layer 
+        /// </summary>
         public DeviceXmlMap(XElement element, XNamespace nameSpace)
         {
             var monitors = ValueHelper.GetNodeValueInParent(element, nameSpace+"c1", nameSpace+"monitor");

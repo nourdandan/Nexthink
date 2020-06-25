@@ -25,6 +25,12 @@ namespace Nexthink.Parsers
             this.hasHeader = hasHeader;
         }
 
+        /// <summary>
+        /// load xml file
+        /// get corresponding nodes and iterate through them
+        /// returns all data
+        /// </summary>
+        /// <returns></returns>
         public List<DeviceData> GetParsedData()
         {
             XDocument doc = XDocument.Load(filePath);
@@ -36,6 +42,12 @@ namespace Nexthink.Parsers
             return LoadData(body,ns);
         }
 
+        /// <summary>
+        /// Loads data using the corresponding file type value mapper
+        /// </summary>
+        /// <param name="elements"></param>
+        /// <param name="ns"></param>
+        /// <returns></returns>
         public static List<DeviceData> LoadData(IEnumerable<XElement> elements,XNamespace ns)
         {
             var devices = new List<DeviceData>();

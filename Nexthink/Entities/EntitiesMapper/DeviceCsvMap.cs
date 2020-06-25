@@ -9,6 +9,10 @@ namespace Nexthink.Entities.EntitiesMapper
 {
     public sealed class DeviceCsvMap : ClassMap<DeviceData>
     {
+        /// <summary>
+        /// Maps values of csv data into our entity
+        /// This plays the role of data layer 
+        /// </summary>
         public DeviceCsvMap()
         {
             Map(m => m.Name).Index(0);

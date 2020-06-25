@@ -11,6 +11,11 @@ namespace Nexthink
 {
     class Program
     {
+        /// <summary>
+        /// simple presentation layer 
+        /// entry point will display results based on file type
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var folderPath = @"C:\Users\n.dandan\Documents\PowershellSoftwareDeveloper";
