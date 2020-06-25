@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexthink", "Nexthink\Nexthink.csproj", "{E693D522-DDBC-49E2-9A14-66B994061548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestNextThink", "UnitTestNextThink\UnitTestNextThink.csproj", "{78AD0F43-A947-4367-8455-07CE6524ADA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E693D522-DDBC-49E2-9A14-66B994061548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E693D522-DDBC-49E2-9A14-66B994061548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E693D522-DDBC-49E2-9A14-66B994061548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E693D522-DDBC-49E2-9A14-66B994061548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AD0F43-A947-4367-8455-07CE6524ADA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AD0F43-A947-4367-8455-07CE6524ADA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AD0F43-A947-4367-8455-07CE6524ADA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AD0F43-A947-4367-8455-07CE6524ADA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A589AEB-CBEB-4AC5-86CE-1AB673486E0A}
+	EndGlobalSection
+EndGlobal
