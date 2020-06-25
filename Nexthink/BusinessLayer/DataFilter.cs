@@ -29,7 +29,7 @@ namespace Nexthink.BusinessLayer
         /// </summary>
         /// <param name="numberOfMonitors"></param>
         /// <returns Tuple Name,LastIpAddress></returns>
-        public List<Tuple<string, string>> GetWithNumberOfMonitoLarger(int numberOfMonitors)
+        public List<Tuple<string, string>> GetDevicesWhereMonitor(int numberOfMonitors)
         {
             var filteredData = GroupRecordsByName(numberOfMonitors);
 

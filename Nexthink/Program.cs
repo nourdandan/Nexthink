@@ -23,11 +23,11 @@ namespace Nexthink
                 {
                     case ".xml":
                          filter = new DataFilter(new XmlParser(fileName, true));
-                        PrintValues(filter.GetWithNumberOfMonitoLarger(1),"xml");
+                        PrintValues(filter.GetDevicesWhereMonitor(1),"xml");
                         break;
                     case ".csv":
                         filter = new DataFilter(new CsvParser(fileName, true));
-                        PrintValues(filter.GetWithNumberOfMonitoLarger(1), "csv");
+                        PrintValues(filter.GetDevicesWhereMonitor(1), "csv");
                         break;
                     default:
                         break;

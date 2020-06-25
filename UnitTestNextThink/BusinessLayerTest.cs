@@ -25,8 +25,8 @@ namespace UnitTestNextThink
             //Arrange
             dataFilter1 = new DataFilter(parser);
             //Act
-            var test1 = dataFilter2.GetWithNumberOfMonitoLarger(1);
-            var test2 = dataFilter2.GetWithNumberOfMonitoLarger(3);
+            var test1 = dataFilter2.GetDevicesWhereMonitor(1);
+            var test2 = dataFilter2.GetDevicesWhereMonitor(3);
             var test3 = dataFilter2.GetAll();
 
             //Asssert
@@ -45,8 +45,8 @@ namespace UnitTestNextThink
             //Arrange
             dataFilter2 = new DataFilter(xmlparser);
             //Act
-            var test1 = dataFilter2.GetWithNumberOfMonitoLarger(1);
-            var test2 = dataFilter2.GetWithNumberOfMonitoLarger(3);
+            var test1 = dataFilter2.GetDevicesWhereMonitor(1);
+            var test2 = dataFilter2.GetDevicesWhereMonitor(3);
             var test3 = dataFilter2.GetAll();
 
             //Asssert
